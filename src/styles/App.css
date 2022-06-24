@@ -1,0 +1,67 @@
+.result {
+  height: 60px;
+  background-color: #bbb;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+button {
+  height: 60px;
+  font-size: 30px;
+}
+div.button{
+  display:grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+button.seven{
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+button.eight{
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
+button.nine{
+  grid-column: 4 / span 1;
+  grid-row: 3 / span 1;
+}
+button.four{
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+button.five{
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+}
+button.six{
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 1;
+}
+button.one{
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
+button.two{
+  grid-column: 3 / span 1;
+  grid-row: 5 / span 1;
+}
+button.three{
+  grid-column: 4 / span 1;
+  grid-row: 5 / span 1;
+}
